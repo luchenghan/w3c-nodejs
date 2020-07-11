@@ -1,0 +1,24 @@
+{
+  "name": "w3c-nodejs",
+  "version": "1.0.0",
+  "description": "w3c node.js tutorial",
+  "main": "hello-world.js",
+  "dependencies": {
+    "formidable": "^1.2.2",
+    "upper-case": "^2.0.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/luchenghan/w3c-nodejs.git"
+  },
+  "author": "Eric Lu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/luchenghan/w3c-nodejs/issues"
+  },
+  "homepage": "https://github.com/luchenghan/w3c-nodejs#readme"
+}
