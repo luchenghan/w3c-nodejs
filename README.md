@@ -7,3 +7,4 @@
 * Upload Files
 * URL Module
 * NPM
+* Events
