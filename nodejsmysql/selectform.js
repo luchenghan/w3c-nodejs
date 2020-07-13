@@ -17,4 +17,9 @@ con.connect(function(err) {
       console.log(fields);  //fields object
 
     });
+    con.query("SELECT name, address FROM customers WHERE name = 'Amy'", function (err, result, fields) {
+      if (err) throw err;
+
+      console.log(result)
+    });
 });
