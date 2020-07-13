@@ -14,3 +14,10 @@
 
 ## MySQL
 * Get Started
+* Create Database
+* Create Table
+* Alter Table column
+* Insert Into
+* Select From Where
+* Inner Left Right Join
+
