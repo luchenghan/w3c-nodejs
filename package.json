@@ -5,6 +5,7 @@
   "main": "hello-world.js",
   "dependencies": {
     "formidable": "^1.2.2",
+    "mysql": "^2.18.1",
     "nodemailer": "^6.4.10",
     "upper-case": "^2.0.1"
   },
