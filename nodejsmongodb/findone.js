@@ -27,4 +27,10 @@ MongoClient.connect(url, function(err, db){
         console.log(result)
         db.close()
     })
+    // limit method
+    dbo.collection("customers").find({}, { projection:  {_id: 0, name: 1, address: 1}}).limit(4).toArray(function(err, result){
+        if(err) throw err;
+        console.log(result)
+        db.close()
+    })
 })
