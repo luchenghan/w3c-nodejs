@@ -4,7 +4,9 @@ var url = "mongodb://localhost:27017/";
 MongoClient.connect(url, function (err, db) {
     if (err) throw err;
     var dbo = db.db("nodedb");
-    var query = { address: "Park Lane 38" };
+
+    // filer the result
+    var query = { address: "Park Lane 38" };    
     dbo
     .collection("customers")
     .find(query)
@@ -14,6 +16,7 @@ MongoClient.connect(url, function (err, db) {
       db.close();
     });
 
+    // reguler expression
     var query2 = { address: /^S/ };
     dbo.collection("customers").find(query2).toArray(function(err, result) {
     if (err) throw err;
